@@ -14,5 +14,7 @@ W tym repozytorium znajdziecie pliki źródłowe aplikacji pozwalające na powr�
 
 
 ----------
+## Firefox is required to run selenium tests.
 sudo apt-get install firefox
+## After installation please start selenium tests.
 mvn test -P selenium
