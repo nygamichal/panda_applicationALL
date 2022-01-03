@@ -37,7 +37,7 @@ public class PandaApplicationSeleniumTest {
 
         // Pamiętaj, że aplikacja Spring musi działać!
         // Turn off autorun app on 8080// driver.get(String.format("http://ubuntucompose:%s/", port));
-        driver.get(String.format("http://ubuntucompose:%s/", 8080));
+        driver.get(String.format("http://192.168.44.44:%s/", 8080));
         
         // Alternatywnie, gdyby DNS dockera nie komunikował się poprawnie
         // driver.get(String.format("http://192.168.44.44:%s", port));
