@@ -18,14 +18,14 @@ import org.springframework.boot.web.server.LocalServerPort;
 
 import static org.junit.Assert.assertEquals;
 
-@SpringBootTest(classes = {PandaApplication.class}, webEnvironment = SpringBootTest.WebEnvironment.DEFINED_PORT)
+// Turn off autorun app on 8080// @SpringBootTest(classes = {PandaApplication.class}, webEnvironment = SpringBootTest.WebEnvironment.DEFINED_PORT)
 public class PandaApplicationSeleniumTest {
 
     private static WebDriver driver;
-
+/* Turn off autorun app on 8080// 
      @LocalServerPort
      private int port;
-
+*/
     @BeforeEach
     public void startup() throws InterruptedException, MalformedURLException {
 
